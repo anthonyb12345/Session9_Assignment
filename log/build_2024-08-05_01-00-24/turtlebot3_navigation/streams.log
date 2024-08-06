@@ -1,0 +1,27 @@
+[0.058s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[0.352s] [ 50%] Built target wall_finder_server
+[0.423s] [35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[0.503s] [100%] Built target robot_driver
+[0.569s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '0': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[0.788s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --install /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation
+[0.836s] -- Install configuration: ""
+[0.839s] -- Execute custom install script
+[0.841s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/wall_finder_server
+[0.842s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/robot_driver
+[0.845s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/launch/wall_follower_with_gazebo.py
+[0.846s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation
+[0.848s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation
+[0.851s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/environment/ament_prefix_path.sh
+[0.853s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/environment/ament_prefix_path.dsv
+[0.854s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/environment/path.sh
+[0.856s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/environment/path.dsv
+[0.858s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/local_setup.bash
+[0.860s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/local_setup.sh
+[0.861s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/local_setup.zsh
+[0.863s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/local_setup.dsv
+[0.864s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/package.dsv
+[0.920s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/ament_index/resource_index/packages/turtlebot3_navigation
+[0.921s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig.cmake
+[0.921s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig-version.cmake
+[0.921s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/package.xml
+[0.932s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '0': /usr/bin/cmake --install /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation

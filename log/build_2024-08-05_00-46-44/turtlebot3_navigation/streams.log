@@ -1,0 +1,15 @@
+[0.106s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[0.859s] [ 50%] Built target wall_finder_server
+[1.007s] [35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[1.190s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o[0m
+[20.131s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:12:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass RobotDriver[m[K’
+[20.131s]    12 | class [01;31m[KRobotDriver[m[K : public rclcpp::Node {
+[20.132s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.132s] In file included from [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:1[m[K:
+[20.133s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/include/robot_driver.hpp:15:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass RobotDriver[m[K’
+[20.133s]    15 | class [01;36m[KRobotDriver[m[K : public rclcpp::Node {
+[20.133s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[41.565s] gmake[2]: *** [CMakeFiles/robot_driver.dir/build.make:76: CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o] Error 1
+[41.570s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_driver.dir/all] Error 2
+[41.574s] gmake: *** [Makefile:146: all] Error 2
+[41.594s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '2': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3

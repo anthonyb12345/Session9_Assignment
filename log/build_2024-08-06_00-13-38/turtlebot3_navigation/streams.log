@@ -1,0 +1,14 @@
+[0.139s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[1.002s] [ 25%] Built target robot_driver
+[1.033s] [ 50%] Built target wall_finder_server
+[1.197s] [ 75%] Built target lap_time_server
+[1.204s] [ 87%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[2.752s] In file included from [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:1[m[K:
+[2.753s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/include/lap_time_client.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcustom_interfaces/action/measure_lap_time.hpp: No such file or directory
+[2.754s]     6 | #include [01;31m[K"custom_interfaces/action/measure_lap_time.hpp"[m[K
+[2.754s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.755s] compilation terminated.
+[2.768s] gmake[2]: *** [CMakeFiles/lap_time_client.dir/build.make:76: CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o] Error 1
+[2.768s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+[2.769s] gmake: *** [Makefile:146: all] Error 2
+[2.782s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '2': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3

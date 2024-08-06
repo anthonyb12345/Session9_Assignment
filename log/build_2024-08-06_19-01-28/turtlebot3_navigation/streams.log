@@ -1,0 +1,17 @@
+[0.073s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[0.658s] [ 12%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[0.662s] [ 37%] Built target wall_finder_server
+[0.673s] [ 62%] Built target robot_driver
+[0.730s] [35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[0.809s] [ 75%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[21.532s] [ 87%] [32m[1mLinking CXX executable lap_time_client[0m
+[22.818s] /usr/bin/ld: CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o: in function `LapTimeActionClient::LapTimeActionClient(rclcpp::NodeOptions const&)':
+[22.818s] lap_time_client.cpp:(.text+0x2b3): undefined reference to `LapTimeActionClient::call_lap_starting_time()'
+[22.888s] collect2: error: ld returned 1 exit status
+[22.894s] gmake[2]: *** [CMakeFiles/lap_time_client.dir/build.make:209: lap_time_client] Error 1
+[22.895s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+[22.895s] gmake[1]: *** Waiting for unfinished jobs....
+[39.482s] [100%] [32m[1mLinking CXX executable lap_time_server[0m
+[41.302s] [100%] Built target lap_time_server
+[41.307s] gmake: *** [Makefile:146: all] Error 2
+[41.317s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '2': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3

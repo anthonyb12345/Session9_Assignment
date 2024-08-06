@@ -1,0 +1,7 @@
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:[m[K In constructor ‘[01m[KLapTimeActionClient::LapTimeActionClient(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:19:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcall_lap_starting_time[m[K’ is not a member of ‘[01m[KLapTimeActionClient[m[K’
+   19 |     std::bind(&LapTimeActionClient::[01;31m[Kcall_lap_starting_time[m[K, this)
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lap_time_client.dir/build.make:76: CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

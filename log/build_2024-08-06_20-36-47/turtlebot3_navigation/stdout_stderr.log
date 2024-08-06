@@ -1,0 +1,16 @@
+[ 25%] Built target wall_finder_server
+[ 37%] [32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o[0m
+[ 62%] Built target lap_time_server
+[35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[ 87%] Built target lap_time_client
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::handle_lap_starting_time(std::shared_ptr<turtlebot3_interfaces::srv::LapStartingTime_Request_<std::allocator<void> > >, std::shared_ptr<turtlebot3_interfaces::srv::LapStartingTime_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:57:120:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | void RobotDriver::handle_lap_starting_time([01;35m[Kconst std::shared_ptr<turtlebot3_interfaces::srv::LapStartingTime::Request> request[m[K,
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable robot_driver[0m
+[100%] Built target robot_driver
+-- Install configuration: ""
+-- Up-to-date: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_server
+-- Up-to-date: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_client
+-- Up-to-date: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/launch
+-- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/package.dsv

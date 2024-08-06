@@ -1,0 +1,61 @@
+[0.032s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[0.076s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.223s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.237s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.265s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.267s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.273s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.371s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.373s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.823s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.969s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.156s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.306s] -- Found turtlebot3_interfaces: 0.0.0 (/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake)
+[1.557s] -- Configuring done
+[1.631s] -- Generating done
+[1.633s] -- Build files have been written to: /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation
+[1.680s] [35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[1.682s] [35m[1mConsolidate compiler generated dependencies of target wall_finder_server[0m
+[1.695s] [ 12%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[1.728s] [ 37%] Built target wall_finder_server
+[1.729s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o[0m
+[1.769s] [ 62%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[2.458s] In file included from [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:1[m[K:
+[2.458s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/include/lap_time_server.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/odometry.hpp: No such file or directory
+[2.459s]     9 | #include [01;31m[K<nav_msgs/msg/odometry.hpp>[m[K
+[2.459s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.459s] compilation terminated.
+[2.465s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:76: CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o] Error 1
+[2.466s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2
+[2.466s] gmake[1]: *** Waiting for unfinished jobs....
+[6.665s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::handle_lap_starting_time(std::shared_ptr<turtlebot3_interfaces::srv::LapStartingTime_Request_<std::allocator<void> > >, std::shared_ptr<turtlebot3_interfaces::srv::LapStartingTime_Response_<std::allocator<void> > >)[m[K’:
+[6.665s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:57:120:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.665s]    57 | void RobotDriver::handle_lap_starting_time([01;35m[Kconst std::shared_ptr<turtlebot3_interfaces::srv::LapStartingTime::Request> request[m[K,
+[6.665s]       |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.936s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:[m[K In member function ‘[01m[Kvoid LapTimeActionClient::call_lap_starting_time()[m[K’:
+[6.936s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:21:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = turtlebot3_interfaces::srv::LapStartingTime; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<turtlebot3_interfaces::srv::LapStartingTime_Response_<std::allocator<void> > > >][m[K’ is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.936s]    21 |     future_ = client_->async_send_request(request[01;35m[K)[m[K;
+[6.936s]       |                                                  [01;35m[K^[m[K
+[6.936s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.937s]                  from [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/include/lap_time_client.hpp:4[m[K,
+[6.937s]                  from [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:1[m[K:
+[6.937s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.937s]   415 |     [01;36m[Koperator[m[K SharedFuture() {return this->future.share();}
+[6.937s]       |     [01;36m[K^~~~~~~~[m[K
+[10.893s] [ 75%] [32m[1mLinking CXX executable lap_time_client[0m
+[11.363s] [ 75%] Built target lap_time_client
+[18.620s] [ 87%] [32m[1mLinking CXX executable robot_driver[0m
+[19.496s] [ 87%] Built target robot_driver
+[19.500s] gmake: *** [Makefile:146: all] Error 2
+[19.503s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '2': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3

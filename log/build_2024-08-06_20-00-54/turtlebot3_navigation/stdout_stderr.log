@@ -1,0 +1,10 @@
+[ 25%] Built target robot_driver
+[ 50%] Built target wall_finder_server
+[ 75%] Built target lap_time_server
+[35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

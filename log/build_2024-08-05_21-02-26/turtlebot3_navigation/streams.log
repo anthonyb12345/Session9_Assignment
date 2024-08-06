@@ -1,0 +1,56 @@
+[0.025s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake /home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation -DCMAKE_INSTALL_PREFIX=/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.233s] -- The CXX compiler identification is GNU 11.4.0
+[0.246s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.355s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.364s] -- Detecting CXX compiler ABI info
+[0.504s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.516s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.519s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.821s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.009s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.094s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.102s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.112s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.243s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.246s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.409s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.464s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.565s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.599s] -- Looking for pthread.h
+[1.709s] -- Looking for pthread.h - found
+[1.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.864s] -- Found Threads: TRUE  
+[2.069s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.231s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.462s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.572s] -- Found turtlebot3_interfaces: 0.0.0 (/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake)
+[2.753s] -- Configuring done
+[2.799s] -- Generating done
+[2.802s] -- Build files have been written to: /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation
+[2.829s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '0': /usr/bin/cmake /home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation -DCMAKE_INSTALL_PREFIX=/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation
+[2.834s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[2.951s] [35m[1mConsolidate compiler generated dependencies of target wall_finder_server[0m
+[2.970s] [35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[2.971s] [35m[1mConsolidate compiler generated dependencies of target lap_time_server[0m
+[2.996s] [ 25%] Built target wall_finder_server
+[3.001s] [ 50%] Built target robot_driver
+[3.019s] [ 62%] [32m[1mLinking CXX executable lap_time_server[0m
+[3.025s] [35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[3.058s] [ 75%] [32m[1mLinking CXX executable lap_time_client[0m
+[3.403s] [ 87%] Built target lap_time_client
+[3.640s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[3.640s] (.text+0x1b): undefined reference to `main'
+[3.721s] collect2: error: ld returned 1 exit status
+[3.724s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:209: lap_time_server] Error 1
+[3.724s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2
+[3.725s] gmake: *** [Makefile:146: all] Error 2
+[3.730s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '2': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3

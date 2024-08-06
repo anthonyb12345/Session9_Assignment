@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target wall_finder_server[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target lap_time_server[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/wall_finder_server.dir/src/wall_finder_server.cpp.o[0m
+[ 37%] Built target robot_driver
+[ 62%] Built target lap_time_server
+[35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[ 87%] Built target lap_time_client
+[100%] [32m[1mLinking CXX executable wall_finder_server[0m
+[100%] Built target wall_finder_server
+-- Install configuration: ""
+-- Up-to-date: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_server
+-- Up-to-date: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_client
+-- Up-to-date: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/launch
+-- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/package.dsv

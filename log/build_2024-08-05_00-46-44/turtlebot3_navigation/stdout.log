@@ -1,0 +1,3 @@
+[ 50%] Built target wall_finder_server
+[35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o[0m

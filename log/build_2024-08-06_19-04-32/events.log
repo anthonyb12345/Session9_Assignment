@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.000974] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001131] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001677] (-) JobUnselected: {'identifier': 'turtlebot3_interfaces'}
+[0.001841] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001934] (turtlebot3_navigation) JobQueued: {'identifier': 'turtlebot3_navigation', 'dependencies': OrderedDict()}
+[0.002031] (turtlebot3_navigation) JobStarted: {'identifier': 'turtlebot3_navigation'}
+[0.025626] (turtlebot3_navigation) JobProgress: {'identifier': 'turtlebot3_navigation', 'progress': 'cmake'}
+[0.037946] (turtlebot3_navigation) JobProgress: {'identifier': 'turtlebot3_navigation', 'progress': 'build'}
+[0.042171] (turtlebot3_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation', '--', '-j3', '-l3'], 'cwd': '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'anthony'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthony'), ('OLDPWD', '/home/anthony/Desktop/Assignment10.1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/Desktop/Assignment10.1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2139,unix/anthony-virtual-machine:/tmp/.ICE-unix/2139'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aca41997_fc71_47f6_8306_8eac853a6ec8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HH2DS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_fake_node:/opt/ros/humble:')]), 'shell': False}
+[0.089601] (-) TimerEvent: {}
+[0.191545] (-) TimerEvent: {}
+[0.293085] (-) TimerEvent: {}
+[0.331630] (turtlebot3_navigation) StdoutLine: {'line': b'[ 25%] Built target wall_finder_server\n'}
+[0.394156] (-) TimerEvent: {}
+[0.396575] (turtlebot3_navigation) StdoutLine: {'line': b'[ 50%] Built target lap_time_server\n'}
+[0.416228] (turtlebot3_navigation) StdoutLine: {'line': b'[ 75%] Built target robot_driver\n'}
+[0.428495] (turtlebot3_navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lap_time_client\x1b[0m\n'}
+[0.495149] (-) TimerEvent: {}
+[0.539700] (turtlebot3_navigation) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o\x1b[0m\n'}
+[0.595459] (-) TimerEvent: {}
+[0.697361] (-) TimerEvent: {}
+[0.798972] (-) TimerEvent: {}
+[0.901873] (-) TimerEvent: {}
+[1.003745] (-) TimerEvent: {}
+[1.107993] (-) TimerEvent: {}
+[1.211816] (-) TimerEvent: {}
+[1.314173] (-) TimerEvent: {}
+[1.416253] (-) TimerEvent: {}
+[1.517627] (-) TimerEvent: {}
+[1.624590] (-) TimerEvent: {}
+[1.725690] (-) TimerEvent: {}
+[1.828804] (-) TimerEvent: {}
+[1.938934] (-) TimerEvent: {}
+[2.049373] (-) TimerEvent: {}
+[2.155354] (-) TimerEvent: {}
+[2.256373] (-) TimerEvent: {}
+[2.359946] (-) TimerEvent: {}
+[2.463882] (-) TimerEvent: {}
+[2.578505] (-) TimerEvent: {}
+[2.680252] (-) TimerEvent: {}
+[2.781351] (-) TimerEvent: {}
+[2.887113] (-) TimerEvent: {}
+[2.991356] (-) TimerEvent: {}
+[3.093273] (-) TimerEvent: {}
+[3.199079] (-) TimerEvent: {}
+[3.307595] (-) TimerEvent: {}
+[3.410004] (-) TimerEvent: {}
+[3.511972] (-) TimerEvent: {}
+[3.620760] (-) TimerEvent: {}
+[3.721692] (-) TimerEvent: {}
+[3.823583] (-) TimerEvent: {}
+[3.936042] (-) TimerEvent: {}
+[4.037880] (-) TimerEvent: {}
+[4.139324] (-) TimerEvent: {}
+[4.243726] (-) TimerEvent: {}
+[4.344983] (-) TimerEvent: {}
+[4.451776] (-) TimerEvent: {}
+[4.562942] (-) TimerEvent: {}
+[4.665339] (-) TimerEvent: {}
+[4.767250] (-) TimerEvent: {}
+[4.868811] (-) TimerEvent: {}
+[4.969882] (-) TimerEvent: {}
+[5.071066] (-) TimerEvent: {}
+[5.172690] (-) TimerEvent: {}
+[5.274500] (-) TimerEvent: {}
+[5.376307] (-) TimerEvent: {}
+[5.478710] (-) TimerEvent: {}
+[5.580451] (-) TimerEvent: {}
+[5.681763] (-) TimerEvent: {}
+[5.785570] (-) TimerEvent: {}
+[5.888428] (-) TimerEvent: {}
+[5.990448] (-) TimerEvent: {}
+[6.091863] (-) TimerEvent: {}
+[6.194777] (-) TimerEvent: {}
+[6.296796] (-) TimerEvent: {}
+[6.399112] (-) TimerEvent: {}
+[6.502424] (-) TimerEvent: {}
+[6.604318] (-) TimerEvent: {}
+[6.710544] (-) TimerEvent: {}
+[6.813753] (-) TimerEvent: {}
+[6.916479] (-) TimerEvent: {}
+[7.018292] (-) TimerEvent: {}
+[7.121385] (-) TimerEvent: {}
+[7.229259] (-) TimerEvent: {}
+[7.330295] (-) TimerEvent: {}
+[7.433601] (-) TimerEvent: {}
+[7.539319] (-) TimerEvent: {}
+[7.650578] (-) TimerEvent: {}
+[7.752694] (-) TimerEvent: {}
+[7.854899] (-) TimerEvent: {}
+[7.956333] (-) TimerEvent: {}
+[8.057794] (-) TimerEvent: {}
+[8.158896] (-) TimerEvent: {}
+[8.260341] (-) TimerEvent: {}
+[8.363032] (-) TimerEvent: {}
+[8.464788] (-) TimerEvent: {}
+[8.566613] (-) TimerEvent: {}
+[8.668107] (-) TimerEvent: {}
+[8.769721] (-) TimerEvent: {}
+[8.871040] (-) TimerEvent: {}
+[8.972888] (-) TimerEvent: {}
+[9.074373] (-) TimerEvent: {}
+[9.176302] (-) TimerEvent: {}
+[9.278243] (-) TimerEvent: {}
+[9.380355] (-) TimerEvent: {}
+[9.482430] (-) TimerEvent: {}
+[9.584102] (-) TimerEvent: {}
+[9.685677] (-) TimerEvent: {}
+[9.788524] (-) TimerEvent: {}
+[9.890319] (-) TimerEvent: {}
+[9.992029] (-) TimerEvent: {}
+[10.093082] (-) TimerEvent: {}
+[10.194908] (-) TimerEvent: {}
+[10.296056] (-) TimerEvent: {}
+[10.397675] (-) TimerEvent: {}
+[10.499734] (-) TimerEvent: {}
+[10.601086] (-) TimerEvent: {}
+[10.703083] (-) TimerEvent: {}
+[10.804828] (-) TimerEvent: {}
+[10.906601] (-) TimerEvent: {}
+[11.008739] (-) TimerEvent: {}
+[11.110279] (-) TimerEvent: {}
+[11.211694] (-) TimerEvent: {}
+[11.313229] (-) TimerEvent: {}
+[11.414661] (-) TimerEvent: {}
+[11.516293] (-) TimerEvent: {}
+[11.617973] (-) TimerEvent: {}
+[11.719153] (-) TimerEvent: {}
+[11.820597] (-) TimerEvent: {}
+[11.921674] (-) TimerEvent: {}
+[12.022742] (-) TimerEvent: {}
+[12.124175] (-) TimerEvent: {}
+[12.228565] (-) TimerEvent: {}
+[12.331110] (-) TimerEvent: {}
+[12.446731] (-) TimerEvent: {}
+[12.551704] (-) TimerEvent: {}
+[12.653305] (-) TimerEvent: {}
+[12.754637] (-) TimerEvent: {}
+[12.855626] (-) TimerEvent: {}
+[12.956392] (-) TimerEvent: {}
+[13.058150] (-) TimerEvent: {}
+[13.159442] (-) TimerEvent: {}
+[13.260691] (-) TimerEvent: {}
+[13.362994] (-) TimerEvent: {}
+[13.464765] (-) TimerEvent: {}
+[13.565995] (-) TimerEvent: {}
+[13.667275] (-) TimerEvent: {}
+[13.768784] (-) TimerEvent: {}
+[13.871124] (-) TimerEvent: {}
+[13.972682] (-) TimerEvent: {}
+[14.074145] (-) TimerEvent: {}
+[14.175745] (-) TimerEvent: {}
+[14.276957] (-) TimerEvent: {}
+[14.378159] (-) TimerEvent: {}
+[14.494049] (-) TimerEvent: {}
+[14.595315] (-) TimerEvent: {}
+[14.696404] (-) TimerEvent: {}
+[14.798169] (-) TimerEvent: {}
+[14.899899] (-) TimerEvent: {}
+[15.001118] (-) TimerEvent: {}
+[15.103311] (-) TimerEvent: {}
+[15.204442] (-) TimerEvent: {}
+[15.309321] (-) TimerEvent: {}
+[15.418665] (-) TimerEvent: {}
+[15.520310] (-) TimerEvent: {}
+[15.621248] (-) TimerEvent: {}
+[15.723942] (-) TimerEvent: {}
+[15.825588] (-) TimerEvent: {}
+[15.936099] (-) TimerEvent: {}
+[16.047609] (-) TimerEvent: {}
+[16.156206] (-) TimerEvent: {}
+[16.266983] (-) TimerEvent: {}
+[16.373392] (-) TimerEvent: {}
+[16.485668] (-) TimerEvent: {}
+[16.596992] (-) TimerEvent: {}
+[16.706925] (-) TimerEvent: {}
+[16.808651] (-) TimerEvent: {}
+[16.909733] (-) TimerEvent: {}
+[17.015936] (-) TimerEvent: {}
+[17.120080] (-) TimerEvent: {}
+[17.231622] (-) TimerEvent: {}
+[17.335773] (-) TimerEvent: {}
+[17.441184] (-) TimerEvent: {}
+[17.550131] (-) TimerEvent: {}
+[17.658154] (-) TimerEvent: {}
+[17.768211] (-) TimerEvent: {}
+[17.876681] (-) TimerEvent: {}
+[17.986964] (-) TimerEvent: {}
+[18.091219] (-) TimerEvent: {}
+[18.193015] (-) TimerEvent: {}
+[18.295010] (-) TimerEvent: {}
+[18.399193] (-) TimerEvent: {}
+[18.508388] (-) TimerEvent: {}
+[18.616271] (-) TimerEvent: {}
+[18.655363] (turtlebot3_navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lap_time_client\x1b[0m\n'}
+[18.717122] (-) TimerEvent: {}
+[18.823655] (-) TimerEvent: {}
+[18.934621] (-) TimerEvent: {}
+[19.043506] (-) TimerEvent: {}
+[19.151938] (-) TimerEvent: {}
+[19.253427] (-) TimerEvent: {}
+[19.272430] (turtlebot3_navigation) StdoutLine: {'line': b'[100%] Built target lap_time_client\n'}
+[19.319762] (turtlebot3_navigation) CommandEnded: {'returncode': 0}
+[19.354842] (-) TimerEvent: {}
+[19.456352] (-) TimerEvent: {}
+[19.475255] (turtlebot3_navigation) JobProgress: {'identifier': 'turtlebot3_navigation', 'progress': 'install'}
+[19.515221] (turtlebot3_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation'], 'cwd': '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'anthony'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthony'), ('OLDPWD', '/home/anthony/Desktop/Assignment10.1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/Desktop/Assignment10.1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2139,unix/anthony-virtual-machine:/tmp/.ICE-unix/2139'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aca41997_fc71_47f6_8306_8eac853a6ec8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HH2DS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_fake_node:/opt/ros/humble:')]), 'shell': False}
+[19.555848] (turtlebot3_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.556625] (-) TimerEvent: {}
+[19.563940] (turtlebot3_navigation) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_server\n'}
+[19.581073] (turtlebot3_navigation) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_server" to ""\n'}
+[19.585083] (turtlebot3_navigation) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_client\n'}
+[19.590723] (turtlebot3_navigation) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_client" to ""\n'}
+[19.591391] (turtlebot3_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/launch\n'}
+[19.602652] (turtlebot3_navigation) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/package.dsv\n'}
+[19.613019] (turtlebot3_navigation) CommandEnded: {'returncode': 0}
+[19.657749] (-) TimerEvent: {}
+[19.760410] (-) TimerEvent: {}
+[19.849812] (turtlebot3_navigation) JobEnded: {'identifier': 'turtlebot3_navigation', 'rc': 0}
+[19.853683] (-) EventReactorShutdown: {}

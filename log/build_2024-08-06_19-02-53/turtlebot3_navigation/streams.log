@@ -1,0 +1,15 @@
+[0.080s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[0.650s] [35m[1mConsolidate compiler generated dependencies of target lap_time_server[0m
+[0.764s] [ 25%] Built target lap_time_server
+[0.772s] [ 50%] Built target robot_driver
+[0.795s] [ 75%] Built target wall_finder_server
+[0.846s] [35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[0.982s] [ 87%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[13.720s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:[m[K In constructor ‘[01m[KLapTimeActionClient::LapTimeActionClient(const rclcpp::NodeOptions&)[m[K’:
+[13.721s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:19:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcall_lap_starting_time[m[K’ is not a member of ‘[01m[KLapTimeActionClient[m[K’
+[13.721s]    19 |     std::bind(&LapTimeActionClient::[01;31m[Kcall_lap_starting_time[m[K, this)
+[13.722s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.160s] gmake[2]: *** [CMakeFiles/lap_time_client.dir/build.make:76: CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o] Error 1
+[18.160s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+[18.161s] gmake: *** [Makefile:146: all] Error 2
+[18.168s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '2': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3

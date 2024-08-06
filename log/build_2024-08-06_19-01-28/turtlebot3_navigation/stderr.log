@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o: in function `LapTimeActionClient::LapTimeActionClient(rclcpp::NodeOptions const&)':
+lap_time_client.cpp:(.text+0x2b3): undefined reference to `LapTimeActionClient::call_lap_starting_time()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/lap_time_client.dir/build.make:209: lap_time_client] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,253 @@
+[0.027s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces': /usr/bin/cmake /home/anthony/Desktop/Assignment10.1/src/turtlebot3_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces
+[0.163s] -- The C compiler identification is GNU 11.4.0
+[0.257s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.399s] -- Detecting C compiler ABI info - done
+[0.411s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.419s] -- Detecting CXX compiler ABI info
+[0.539s] -- Detecting CXX compiler ABI info - done
+[0.550s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.555s] -- Detecting CXX compile features
+[0.556s] -- Detecting CXX compile features - done
+[0.571s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.825s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.914s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.971s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.982s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.004s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.121s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.852s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.647s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.702s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.707s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.750s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.751s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.751s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.752s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.772s] -- Found PythonExtra: .so  
+[2.881s] -- Configuring done
+[2.931s] -- Generating done
+[2.935s] -- Build files have been written to: /home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces
+[2.947s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces' returned '0': /usr/bin/cmake /home/anthony/Desktop/Assignment10.1/src/turtlebot3_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces
+[2.947s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces -- -j3 -l3
+[3.021s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.038s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.061s] [  4%] Built target ament_cmake_python_symlink_turtlebot3_interfaces
+[3.422s] running egg_info
+[3.423s] creating turtlebot3_interfaces.egg-info
+[3.423s] writing turtlebot3_interfaces.egg-info/PKG-INFO
+[3.423s] writing dependency_links to turtlebot3_interfaces.egg-info/dependency_links.txt
+[3.423s] writing top-level names to turtlebot3_interfaces.egg-info/top_level.txt
+[3.424s] writing manifest file 'turtlebot3_interfaces.egg-info/SOURCES.txt'
+[3.429s] reading manifest file 'turtlebot3_interfaces.egg-info/SOURCES.txt'
+[3.429s] writing manifest file 'turtlebot3_interfaces.egg-info/SOURCES.txt'
+[3.461s] [  4%] Built target ament_cmake_python_build_turtlebot3_interfaces_egg
+[4.201s] [  4%] Built target turtlebot3_interfaces__cpp
+[4.213s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.224s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.239s] [ 10%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_interfaces/action/detail/measure_lap_time__functions.c.o[0m
+[4.537s] [ 12%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_interfaces/srv/detail/find_closest_wall__functions.c.o[0m
+[4.617s] [ 14%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_interfaces/srv/detail/lap_starting_time__functions.c.o[0m
+[4.694s] [ 17%] [32m[1mLinking C shared library libturtlebot3_interfaces__rosidl_generator_c.so[0m
+[4.748s] [ 17%] Built target turtlebot3_interfaces__rosidl_generator_c
+[4.762s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.047s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_interfaces/action/measure_lap_time__type_support.cpp.o[0m
+[5.427s] [ 23%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_interfaces/action/detail/dds_fastrtps/measure_lap_time__type_support.cpp.o[0m
+[5.572s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_interfaces/action/detail/measure_lap_time__type_support.cpp.o[0m
+[5.866s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_interfaces/srv/find_closest_wall__type_support.cpp.o[0m
+[6.324s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_interfaces/srv/detail/dds_fastrtps/find_closest_wall__type_support.cpp.o[0m
+[6.343s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_interfaces/srv/lap_starting_time__type_support.cpp.o[0m
+[6.443s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support.cpp.o[0m
+[6.801s] [ 36%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_cpp.so[0m
+[6.884s] [ 36%] Built target turtlebot3_interfaces__rosidl_typesupport_cpp
+[6.898s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.043s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_interfaces/srv/detail/dds_fastrtps/lap_starting_time__type_support.cpp.o[0m
+[7.228s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_interfaces/srv/detail/lap_starting_time__type_support.cpp.o[0m
+[7.689s] [ 44%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.793s] [ 46%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.801s] [ 46%] Built target turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.815s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.960s] [ 48%] Built target turtlebot3_interfaces__rosidl_typesupport_introspection_cpp
+[7.976s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.060s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_interfaces/action/detail/measure_lap_time__type_support_c.cpp.o[0m
+[8.626s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support_c.cpp.o[0m
+[8.705s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_interfaces/action/measure_lap_time__type_support.cpp.o[0m
+[8.794s] [ 59%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_interfaces/action/detail/measure_lap_time__type_support.c.o[0m
+[8.830s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_interfaces/srv/find_closest_wall__type_support.cpp.o[0m
+[8.899s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_interfaces/srv/lap_starting_time__type_support.cpp.o[0m
+[8.932s] [ 65%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support.c.o[0m
+[8.954s] [ 68%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_c.so[0m
+[9.007s] [ 70%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_interfaces/srv/detail/lap_starting_time__type_support.c.o[0m
+[9.032s] [ 70%] Built target turtlebot3_interfaces__rosidl_typesupport_c
+[9.045s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_interfaces/srv/detail/lap_starting_time__type_support_c.cpp.o[0m
+[9.104s] [ 74%] [32m[1mLinking C shared library libturtlebot3_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.180s] [ 74%] Built target turtlebot3_interfaces__rosidl_typesupport_introspection_c
+[9.549s] [ 76%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.679s] [ 76%] Built target turtlebot3_interfaces__rosidl_typesupport_fastrtps_c
+[9.727s] [ 76%] Built target turtlebot3_interfaces
+[9.762s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.544s] [ 78%] Built target turtlebot3_interfaces__py
+[11.570s] [ 80%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_interfaces/srv/_lap_starting_time_s.c.o[0m
+[11.573s] [ 82%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_interfaces/srv/_find_closest_wall_s.c.o[0m
+[11.573s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_interfaces/action/_measure_lap_time_s.c.o[0m
+[11.837s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/libturtlebot3_interfaces__rosidl_generator_py.so[0m
+[11.924s] [ 87%] Built target turtlebot3_interfaces__rosidl_generator_py
+[11.955s] [ 89%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.955s] [ 91%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.958s] [ 93%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.163s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.165s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.165s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.234s] [100%] Built target turtlebot3_interfaces__rosidl_typesupport_introspection_c__pyext
+[12.236s] [100%] Built target turtlebot3_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[12.241s] [100%] Built target turtlebot3_interfaces__rosidl_typesupport_c__pyext
+[12.258s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces' returned '0': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces -- -j3 -l3
+[12.510s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces': /usr/bin/cmake --install /home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces
+[12.528s] -- Install configuration: ""
+[12.530s] -- Execute custom install script
+[12.531s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_interfaces
+[12.546s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__functions.h
+[12.559s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__struct.h
+[12.572s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__type_support.h
+[12.587s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/measure_lap_time.h
+[12.604s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.619s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__functions.h
+[12.636s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__struct.h
+[12.656s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support.h
+[12.672s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__functions.h
+[12.684s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__struct.h
+[12.707s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__type_support.h
+[12.721s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/find_closest_wall.h
+[12.744s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/lap_starting_time.h
+[12.757s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/library_path.sh
+[12.768s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/library_path.dsv
+[12.784s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h
+[12.801s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.828s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h
+[12.855s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__rosidl_typesupport_fastrtps_c.h
+[12.881s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h
+[12.894s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.908s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h
+[12.935s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__rosidl_typesupport_introspection_c.h
+[12.961s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__builder.hpp
+[12.975s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__struct.hpp
+[12.986s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__traits.hpp
+[12.997s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/measure_lap_time.hpp
+[13.010s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__builder.hpp
+[13.025s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__struct.hpp
+[13.037s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__traits.hpp
+[13.058s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__builder.hpp
+[13.075s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__struct.hpp
+[13.086s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__traits.hpp
+[13.094s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/find_closest_wall.hpp
+[13.105s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/lap_starting_time.hpp
+[13.124s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp
+[13.143s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.156s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp
+[13.169s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__rosidl_typesupport_fastrtps_cpp.hpp
+[13.182s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp
+[13.203s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp
+[13.217s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__rosidl_typesupport_introspection_cpp.hpp
+[13.229s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/pythonpath.sh
+[13.241s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/pythonpath.dsv
+[13.252s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[13.264s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.275s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.289s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[13.313s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/__init__.py
+[13.333s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_c.c
+[13.344s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.356s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[13.368s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/__init__.py
+[13.379s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/_measure_lap_time.py
+[13.390s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/_measure_lap_time_s.c
+[13.415s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/libturtlebot3_interfaces__rosidl_generator_py.so
+[13.444s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/__init__.py
+[13.465s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_find_closest_wall.py
+[13.488s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_find_closest_wall_s.c
+[13.505s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_lap_starting_time.py
+[13.522s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_lap_starting_time_s.c
+[13.545s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.556s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.568s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.586s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.587s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.588s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.588s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/action/MeasureLapTime.idl
+[13.603s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall.idl
+[13.623s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/LapStartingTime.idl
+[13.643s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/action/MeasureLapTime.action
+[13.655s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall.srv
+[13.668s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall_Request.msg
+[13.680s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall_Response.msg
+[13.700s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/LapStartingTime.srv
+[13.724s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/LapStartingTime_Request.msg
+[13.737s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/LapStartingTime_Response.msg
+[13.751s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlebot3_interfaces
+[13.763s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlebot3_interfaces
+[13.775s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/ament_prefix_path.sh
+[13.787s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/ament_prefix_path.dsv
+[13.799s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/path.sh
+[13.811s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/path.dsv
+[13.836s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.bash
+[13.863s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.sh
+[13.878s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.zsh
+[13.889s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.dsv
+[13.902s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/package.dsv
+[13.915s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/ament_index/resource_index/packages/turtlebot3_interfaces
+[13.928s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.955s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.970s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.981s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.993s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[14.004s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.016s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.029s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfacesConfig.cmake
+[14.042s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfacesConfig-version.cmake
+[14.055s] -- Symlinking: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/package.xml
+[14.081s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_c.so
+[14.082s] -- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_c.so" to ""
+[14.083s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_c.so
+[14.084s] -- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[14.084s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_c.so
+[14.085s] -- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[14.086s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_c.so
+[14.086s] -- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_c.so" to ""
+[14.087s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[14.088s] -- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.088s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_cpp.so
+[14.089s] -- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[14.089s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_cpp.so
+[14.090s] -- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_cpp.so" to ""
+[14.154s] Listing '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces'...
+[14.154s] Compiling '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/__init__.py'...
+[14.155s] Listing '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action'...
+[14.155s] Compiling '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/__init__.py'...
+[14.155s] Compiling '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/_measure_lap_time.py'...
+[14.155s] Listing '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv'...
+[14.155s] Compiling '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/__init__.py'...
+[14.155s] Compiling '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_find_closest_wall.py'...
+[14.156s] Compiling '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_lap_starting_time.py'...
+[14.160s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_py.so
+[14.161s] -- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_py.so" to ""
+[14.161s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_cExport.cmake
+[14.161s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_cExport-noconfig.cmake
+[14.162s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[14.162s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.162s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[14.163s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.163s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cExport.cmake
+[14.164s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[14.165s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_cppExport.cmake
+[14.165s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.166s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.166s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[14.167s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.167s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cppExport.cmake
+[14.168s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[14.168s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_pyExport.cmake
+[14.169s] -- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[14.174s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces' returned '0': /usr/bin/cmake --install /home/anthony/Desktop/Assignment10.1/build/turtlebot3_interfaces

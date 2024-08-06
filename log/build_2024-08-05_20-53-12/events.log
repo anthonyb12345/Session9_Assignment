@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000499] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000550] (-) JobUnselected: {'identifier': 'turtlebot3_interfaces'}
+[0.000587] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000627] (turtlebot3_navigation) JobQueued: {'identifier': 'turtlebot3_navigation', 'dependencies': OrderedDict()}
+[0.000668] (turtlebot3_navigation) JobStarted: {'identifier': 'turtlebot3_navigation'}
+[0.015069] (turtlebot3_navigation) JobProgress: {'identifier': 'turtlebot3_navigation', 'progress': 'cmake'}
+[0.018571] (turtlebot3_navigation) JobProgress: {'identifier': 'turtlebot3_navigation', 'progress': 'build'}
+[0.018893] (turtlebot3_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation', '--', '-j3', '-l3'], 'cwd': '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'anthony'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthony'), ('OLDPWD', '/home/anthony/Desktop/Assignment10.1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2334'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/Desktop/Assignment10.1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2135,unix/anthony-virtual-machine:/tmp/.ICE-unix/2135'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80a2c72c_caf8_4613_b408_cad60105bc6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CL6ZR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment10.1/install/turtlebot3_fake_node:/opt/ros/humble:')]), 'shell': False}
+[0.055151] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098976] (-) TimerEvent: {}
+[0.200235] (-) TimerEvent: {}
+[0.248046] (turtlebot3_navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.254699] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.301322] (-) TimerEvent: {}
+[0.303515] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.309800] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.320197] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.336761] (turtlebot3_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.350729] (turtlebot3_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.401750] (-) TimerEvent: {}
+[0.425884] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.426947] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.502436] (-) TimerEvent: {}
+[0.603610] (-) TimerEvent: {}
+[0.665631] (turtlebot3_navigation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.704068] (-) TimerEvent: {}
+[0.805021] (-) TimerEvent: {}
+[0.906117] (-) TimerEvent: {}
+[0.936511] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.006418] (-) TimerEvent: {}
+[1.043606] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.107239] (-) TimerEvent: {}
+[1.207972] (-) TimerEvent: {}
+[1.263611] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.308291] (-) TimerEvent: {}
+[1.409355] (-) TimerEvent: {}
+[1.430296] (turtlebot3_navigation) StdoutLine: {'line': b'-- Found turtlebot3_interfaces: 0.0.0 (/home/anthony/Desktop/Assignment10.1/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake)\n'}
+[1.510147] (-) TimerEvent: {}
+[1.611404] (-) TimerEvent: {}
+[1.667161] (turtlebot3_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.695597] (turtlebot3_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[1.697916] (turtlebot3_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation\n'}
+[1.711586] (-) TimerEvent: {}
+[1.747603] (turtlebot3_navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_driver\x1b[0m\n'}
+[1.752080] (turtlebot3_navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wall_finder_server\x1b[0m\n'}
+[1.787096] (turtlebot3_navigation) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o\x1b[0m\n'}
+[1.812023] (-) TimerEvent: {}
+[1.820408] (turtlebot3_navigation) StdoutLine: {'line': b'[ 37%] Built target robot_driver\n'}
+[1.842681] (turtlebot3_navigation) StdoutLine: {'line': b'[ 62%] Built target wall_finder_server\n'}
+[1.869035] (turtlebot3_navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lap_time_client\x1b[0m\n'}
+[1.897522] (turtlebot3_navigation) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o\x1b[0m\n'}
+[1.913129] (-) TimerEvent: {}
+[2.013639] (-) TimerEvent: {}
+[2.114495] (-) TimerEvent: {}
+[2.215435] (-) TimerEvent: {}
+[2.316969] (-) TimerEvent: {}
+[2.418212] (-) TimerEvent: {}
+[2.519166] (-) TimerEvent: {}
+[2.620577] (-) TimerEvent: {}
+[2.721125] (-) TimerEvent: {}
+[2.822543] (-) TimerEvent: {}
+[2.924146] (-) TimerEvent: {}
+[3.025257] (-) TimerEvent: {}
+[3.125900] (-) TimerEvent: {}
+[3.226674] (-) TimerEvent: {}
+[3.327678] (-) TimerEvent: {}
+[3.429078] (-) TimerEvent: {}
+[3.530371] (-) TimerEvent: {}
+[3.630901] (-) TimerEvent: {}
+[3.731860] (-) TimerEvent: {}
+[3.832456] (-) TimerEvent: {}
+[3.933381] (-) TimerEvent: {}
+[4.033981] (-) TimerEvent: {}
+[4.134912] (-) TimerEvent: {}
+[4.236255] (-) TimerEvent: {}
+[4.336993] (-) TimerEvent: {}
+[4.437519] (-) TimerEvent: {}
+[4.538209] (-) TimerEvent: {}
+[4.639196] (-) TimerEvent: {}
+[4.740652] (-) TimerEvent: {}
+[4.841946] (-) TimerEvent: {}
+[4.942683] (-) TimerEvent: {}
+[5.043882] (-) TimerEvent: {}
+[5.145093] (-) TimerEvent: {}
+[5.245702] (-) TimerEvent: {}
+[5.346789] (-) TimerEvent: {}
+[5.447421] (-) TimerEvent: {}
+[5.548786] (-) TimerEvent: {}
+[5.649363] (-) TimerEvent: {}
+[5.750302] (-) TimerEvent: {}
+[5.850861] (-) TimerEvent: {}
+[5.952198] (-) TimerEvent: {}
+[6.052806] (-) TimerEvent: {}
+[6.099288] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LapTimeActionClient::call_lap_starting_time()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.099820] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:21:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = turtlebot3_interfaces::srv::LapStartingTime; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<turtlebot3_interfaces::srv::LapStartingTime_Response_<std::allocator<void> > > >]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.100098] (turtlebot3_navigation) StderrLine: {'line': b'   21 |     future_ = client_->async_send_request(request\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.100378] (turtlebot3_navigation) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.100588] (turtlebot3_navigation) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.100785] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.100985] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.101259] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.101473] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.101670] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.101872] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.102102] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.102497] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.102700] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/include/lap_time_client.hpp:4\x1b[m\x1b[K,\n'}
+[6.102896] (turtlebot3_navigation) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_client.cpp:1\x1b[m\x1b[K:\n'}
+[6.103102] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.103349] (turtlebot3_navigation) StderrLine: {'line': b'  415 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K SharedFuture() {return this->future.share();}\n'}
+[6.103547] (turtlebot3_navigation) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.153235] (-) TimerEvent: {}
+[6.254193] (-) TimerEvent: {}
+[6.318182] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse LapTimeActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const turtlebot3_interfaces::action::MeasureLapTime_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.318497] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:37:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuuid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.318598] (turtlebot3_navigation) StderrLine: {'line': b'   37 |     \x1b[01;35m\x1b[Kconst rclcpp_action::GoalUUID &uuid\x1b[m\x1b[K,\n'}
+[6.318638] (turtlebot3_navigation) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.318687] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:38:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.318726] (turtlebot3_navigation) StderrLine: {'line': b'   38 |     \x1b[01;35m\x1b[Kstd::shared_ptr<const MeasureLapTime::Goal> goal\x1b[m\x1b[K\n'}
+[6.318764] (turtlebot3_navigation) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.318839] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse LapTimeActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<turtlebot3_interfaces::action::MeasureLapTime> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.318883] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:47:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.318954] (turtlebot3_navigation) StderrLine: {'line': b'   47 | LapTimeActionServer::handle_cancel(\x1b[01;35m\x1b[Kconst std::shared_ptr<GoalHandleLapTime> goal_handle\x1b[m\x1b[K)\n'}
+[6.319015] (turtlebot3_navigation) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.340164] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LapTimeActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<turtlebot3_interfaces::action::MeasureLapTime> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.340372] (turtlebot3_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:71:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.340439] (turtlebot3_navigation) StderrLine: {'line': b'   71 |     rclcpp_action::ResultCode \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K = rclcpp_action::ResultCode::SUCCEEDED;\n'}
+[6.340504] (turtlebot3_navigation) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.355090] (-) TimerEvent: {}
+[6.456133] (-) TimerEvent: {}
+[6.557514] (-) TimerEvent: {}
+[6.658303] (-) TimerEvent: {}
+[6.759462] (-) TimerEvent: {}
+[6.860455] (-) TimerEvent: {}
+[6.961872] (-) TimerEvent: {}
+[7.062896] (-) TimerEvent: {}
+[7.163724] (-) TimerEvent: {}
+[7.264670] (-) TimerEvent: {}
+[7.365478] (-) TimerEvent: {}
+[7.467031] (-) TimerEvent: {}
+[7.568244] (-) TimerEvent: {}
+[7.669054] (-) TimerEvent: {}
+[7.770175] (-) TimerEvent: {}
+[7.871062] (-) TimerEvent: {}
+[7.971739] (-) TimerEvent: {}
+[8.073034] (-) TimerEvent: {}
+[8.173654] (-) TimerEvent: {}
+[8.274661] (-) TimerEvent: {}
+[8.376550] (-) TimerEvent: {}
+[8.478112] (-) TimerEvent: {}
+[8.579355] (-) TimerEvent: {}
+[8.680754] (-) TimerEvent: {}
+[8.783100] (-) TimerEvent: {}
+[8.883937] (-) TimerEvent: {}
+[8.985965] (-) TimerEvent: {}
+[9.086841] (-) TimerEvent: {}
+[9.188336] (-) TimerEvent: {}
+[9.289433] (-) TimerEvent: {}
+[9.390294] (-) TimerEvent: {}
+[9.490938] (-) TimerEvent: {}
+[9.515428] (turtlebot3_navigation) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable lap_time_client\x1b[0m\n'}
+[9.591983] (-) TimerEvent: {}
+[9.692727] (-) TimerEvent: {}
+[9.794705] (-) TimerEvent: {}
+[9.883950] (turtlebot3_navigation) StdoutLine: {'line': b'[ 87%] Built target lap_time_client\n'}
+[9.895544] (-) TimerEvent: {}
+[9.996614] (-) TimerEvent: {}
+[10.097286] (-) TimerEvent: {}
+[10.199328] (-) TimerEvent: {}
+[10.299905] (-) TimerEvent: {}
+[10.400789] (-) TimerEvent: {}
+[10.501643] (-) TimerEvent: {}
+[10.602945] (-) TimerEvent: {}
+[10.704011] (-) TimerEvent: {}
+[10.804834] (-) TimerEvent: {}
+[10.906102] (-) TimerEvent: {}
+[11.007404] (-) TimerEvent: {}
+[11.108322] (-) TimerEvent: {}
+[11.209693] (-) TimerEvent: {}
+[11.310350] (-) TimerEvent: {}
+[11.411451] (-) TimerEvent: {}
+[11.512172] (-) TimerEvent: {}
+[11.613574] (-) TimerEvent: {}
+[11.714349] (-) TimerEvent: {}
+[11.814975] (-) TimerEvent: {}
+[11.916256] (-) TimerEvent: {}
+[12.017482] (-) TimerEvent: {}
+[12.117934] (-) TimerEvent: {}
+[12.219133] (-) TimerEvent: {}
+[12.320686] (-) TimerEvent: {}
+[12.422063] (-) TimerEvent: {}
+[12.522782] (-) TimerEvent: {}
+[12.623991] (-) TimerEvent: {}
+[12.724808] (-) TimerEvent: {}
+[12.825532] (-) TimerEvent: {}
+[12.926597] (-) TimerEvent: {}
+[13.027944] (-) TimerEvent: {}
+[13.129028] (-) TimerEvent: {}
+[13.230277] (-) TimerEvent: {}
+[13.331422] (-) TimerEvent: {}
+[13.432054] (-) TimerEvent: {}
+[13.533020] (-) TimerEvent: {}
+[13.634603] (-) TimerEvent: {}
+[13.735321] (-) TimerEvent: {}
+[13.836409] (-) TimerEvent: {}
+[13.937467] (-) TimerEvent: {}
+[14.038916] (-) TimerEvent: {}
+[14.139592] (-) TimerEvent: {}
+[14.241560] (-) TimerEvent: {}
+[14.342136] (-) TimerEvent: {}
+[14.443074] (-) TimerEvent: {}
+[14.543684] (-) TimerEvent: {}
+[14.645139] (-) TimerEvent: {}
+[14.746615] (-) TimerEvent: {}
+[14.848189] (-) TimerEvent: {}
+[14.949252] (-) TimerEvent: {}
+[15.050155] (-) TimerEvent: {}
+[15.151384] (-) TimerEvent: {}
+[15.252942] (-) TimerEvent: {}
+[15.354108] (-) TimerEvent: {}
+[15.455375] (-) TimerEvent: {}
+[15.556868] (-) TimerEvent: {}
+[15.657524] (-) TimerEvent: {}
+[15.759024] (-) TimerEvent: {}
+[15.860117] (-) TimerEvent: {}
+[15.961111] (-) TimerEvent: {}
+[16.061889] (-) TimerEvent: {}
+[16.163307] (-) TimerEvent: {}
+[16.264646] (-) TimerEvent: {}
+[16.335474] (turtlebot3_navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lap_time_server\x1b[0m\n'}
+[16.365307] (-) TimerEvent: {}
+[16.466366] (-) TimerEvent: {}
+[16.567161] (-) TimerEvent: {}
+[16.668479] (-) TimerEvent: {}
+[16.769393] (-) TimerEvent: {}
+[16.870744] (-) TimerEvent: {}
+[16.970204] (turtlebot3_navigation) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[16.970744] (-) TimerEvent: {}
+[16.971109] (turtlebot3_navigation) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[17.057515] (turtlebot3_navigation) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[17.059303] (turtlebot3_navigation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:209: lap_time_server] Error 1\n'}
+[17.059937] (turtlebot3_navigation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2\n'}
+[17.060317] (turtlebot3_navigation) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.063553] (turtlebot3_navigation) CommandEnded: {'returncode': 2}
+[17.071091] (-) TimerEvent: {}
+[17.128396] (turtlebot3_navigation) JobEnded: {'identifier': 'turtlebot3_navigation', 'rc': 2}
+[17.139353] (-) EventReactorShutdown: {}

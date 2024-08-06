@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[ 50%] Built target wall_finder_server
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o[0m
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:[m[K In constructor ‘[01m[KRobotDriver::RobotDriver()[m[K’:
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcall_wall_finder_service[m[K’ was not declared in this scope
+   24 |     [01;31m[Kcall_wall_finder_service[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:[m[K At global scope:
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:36:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid RobotDriver::call_wall_finder_service()[m[K’
+   36 | void [01;31m[KRobotDriver[m[K::call_wall_finder_service() {
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:36:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid RobotDriver::call_wall_finder_service()[m[K’
+In file included from [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/robot_driver.cpp:1[m[K:
+[01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/include/robot_driver.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RobotDriver[m[K’ defined here
+   11 | class [01;36m[KRobotDriver[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_driver.dir/build.make:76: CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

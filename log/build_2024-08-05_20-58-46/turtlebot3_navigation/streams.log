@@ -1,0 +1,17 @@
+[0.027s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target lap_time_server[0m
+[0.151s] [ 25%] Built target wall_finder_server
+[0.153s] [ 50%] Built target robot_driver
+[0.169s] [ 62%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[0.218s] [ 75%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[7.812s] [ 87%] [32m[1mLinking CXX executable lap_time_client[0m
+[8.242s] [ 87%] Built target lap_time_client
+[14.401s] [100%] [32m[1mLinking CXX executable lap_time_server[0m
+[15.063s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[15.063s] (.text+0x1b): undefined reference to `main'
+[15.124s] collect2: error: ld returned 1 exit status
+[15.126s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:209: lap_time_server] Error 1
+[15.126s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2
+[15.127s] gmake: *** [Makefile:146: all] Error 2
+[15.130s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '2': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3

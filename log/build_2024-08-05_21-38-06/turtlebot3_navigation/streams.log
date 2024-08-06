@@ -1,0 +1,20 @@
+[0.080s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[0.585s] [ 12%] [32mBuilding CXX object CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o[0m
+[0.588s] [ 37%] Built target robot_driver
+[0.607s] [ 62%] Built target wall_finder_server
+[0.664s] [35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[0.755s] [ 75%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[11.843s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:7:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass LapTimeActionServer[m[K’
+[11.844s]     7 | class [01;31m[KLapTimeActionServer[m[K : public rclcpp::Node
+[11.844s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.844s] In file included from [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/src/lap_time_server.cpp:2[m[K:
+[11.845s] [01m[K/home/anthony/Desktop/Assignment10.1/src/turtlebot3_navigation/include/lap_time_server.hpp:14:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass LapTimeActionServer[m[K’
+[11.845s]    14 | class [01;36m[KLapTimeActionServer[m[K : public rclcpp::Node
+[11.845s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.901s] gmake[2]: *** [CMakeFiles/lap_time_server.dir/build.make:76: CMakeFiles/lap_time_server.dir/src/lap_time_server.cpp.o] Error 1
+[13.902s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_server.dir/all] Error 2
+[13.902s] gmake[1]: *** Waiting for unfinished jobs....
+[20.928s] [ 87%] [32m[1mLinking CXX executable lap_time_client[0m
+[22.077s] [ 87%] Built target lap_time_client
+[22.083s] gmake: *** [Makefile:146: all] Error 2
+[22.093s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '2': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3

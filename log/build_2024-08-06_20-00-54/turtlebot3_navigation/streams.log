@@ -1,0 +1,12 @@
+[0.070s] Invoking command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3
+[0.533s] [ 25%] Built target robot_driver
+[0.536s] [ 50%] Built target wall_finder_server
+[0.544s] [ 75%] Built target lap_time_server
+[0.609s] [35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[0.700s] [ 87%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[17.242s] gmake[2]: *** wait: No child processes.  Stop.
+[17.243s] gmake[2]: *** Waiting for unfinished jobs....
+[17.243s] gmake[2]: *** wait: No child processes.  Stop.
+[17.243s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lap_time_client.dir/all] Error 2
+[17.244s] gmake: *** [Makefile:146: all] Interrupt
+[17.306s] Invoked command in '/home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation' returned '-2': /usr/bin/cmake --build /home/anthony/Desktop/Assignment10.1/build/turtlebot3_navigation -- -j3 -l3

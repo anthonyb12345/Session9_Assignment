@@ -1,0 +1,13 @@
+[ 25%] Built target wall_finder_server
+[ 50%] Built target lap_time_server
+[ 75%] Built target robot_driver
+[35m[1mConsolidate compiler generated dependencies of target lap_time_client[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/lap_time_client.dir/src/lap_time_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lap_time_client[0m
+[100%] Built target lap_time_client
+-- Install configuration: ""
+-- Up-to-date: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_server
+-- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_client
+-- Set runtime path of "/home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/lib/turtlebot3_navigation/lap_time_client" to ""
+-- Up-to-date: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/launch
+-- Installing: /home/anthony/Desktop/Assignment10.1/install/turtlebot3_navigation/share/turtlebot3_navigation/package.dsv
