@@ -6,7 +6,7 @@ This ROS 2 project involves multiple nodes and services to control and interact 
 1. **Wall Finder Service Server (`wall_finder_server`)**: This node finds the closest wall and navigates the robot towards it.
 2. **Robot Driver Node (`robot_driver`)**: This node interacts with the Wall Finder Service to find a wall and then follows it.
 3. **Lap Time Action Server (`lap_time_server`)**: This node measures the time taken for the robot to complete a lap around an arena.
-4. **Lap Time Action Client (`lap_time_client.py`)**: This node interacts with the Lap Time Action Server to start and monitor the lap timing process.
+4. **Lap Time Action Client (`lap_time_client`)**: This node interacts with the Lap Time Action Server to start and monitor the lap timing process.
 
 
 ## Launch File
@@ -15,7 +15,24 @@ This ROS 2 project involves multiple nodes and services to control and interact 
 - Launches all the nodes (`wall_finder_server`, `robot_driver`, `lap_time_server`, and `lap_time_client`) together.
 
 ## Instructions
+
 ### Install
+1. Navigate to src:
+    ```sh
+    cd ~/ros2_ws/src
+    ```
+2. Clone turtlebot3_simulation package:
+    ```sh
+    git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    ```
+3. Navigate to your ROS 2 workspace:
+    ```sh
+   cd ..
+    ```
+4. Install fake_node and gazebo packages:
+    ```sh
+   sudo apt install ros-humble-gazebo-*
+    ```
 
 ### Build the ROS 2 Package
 
